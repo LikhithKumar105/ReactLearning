@@ -1,0 +1,13 @@
+- Its a js library, not framework.
+- React is a set of re usable components, which help to build web applications.
+- JSX- JavaScript XML.
+- React uses a virtual DOM(light weight version of real DOM).
+- We can re render only the changed components instead of whole web application which reduces time and load.
+- prerequisites - js, html.
+- CSS
+    - External - Good for global styles or small projects.
+    - Modules - Preferred for individual components which have their unique styles.
+    - Inline- Good for small components with minimal styling.
+- The `useState()` hook allows managing state in functional components.
+- The `useEffect()` hook is used for side effects like fetching data, subscriptions, or manually changing the DOM.
+- `useCallback()` memoizes a function, preventing unnecessary re-creation.

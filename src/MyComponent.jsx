@@ -50,6 +50,8 @@ function MyComponent() {
         </button>
       </div>
       <br />
+      <br />
+      <br />
 
       <div>
         <input value={name} onChange={handleNameChange} />
