@@ -1,12 +1,18 @@
 import MyComponent from "./MyComponent";
 import CarComponent from "./components/car/CarComponent";
+import FoodComponent from "./components/food/FoodComponent";
+import ToDoListComponent from "./components/toDoList/toDoListComponent";
 
 function App() {
   return (
     <>
-      <MyComponent/>
+      <MyComponent />
       <br />
-      <CarComponent/>
+      <CarComponent />
+      <br />
+      <ToDoListComponent />
+      <br />
+      <FoodComponent />
     </>
   );
 }
